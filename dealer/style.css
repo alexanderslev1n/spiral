@@ -1,0 +1,243 @@
+@font-face {
+	font-family: Fixel;
+	src: url('fonts/MacPawFixel-VF.ttf');
+}
+
+h1 {
+	font-family: Fixel;
+	font-size: 26px;
+	font-weight: 500;
+	margin:0;
+}
+
+h3 {
+	font-family: Fixel;
+	font-size: 30px;
+	font-weight: 500;
+	margin: 0;
+	margin-bottom: 0.3em;
+	margin-top: 1em;
+	padding: 0;
+}
+
+strong {
+	font-weight: 600;
+}
+
+body {
+	font-family: Fixel;
+}
+
+/*
+DIVs
+*/
+
+table {
+	display: block;
+	overflow-x: auto;
+}
+
+tr {
+	font-size: 14px;
+	font-weight: 500;
+	text-align: left;
+}
+
+td {
+	vertical-align: top;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	z-index:inherit;
+}
+
+th {
+	vertical-align: bottom;
+	border-bottom: 1px solid #999;
+}
+
+tr>th:first-child,tr>td:first-child {
+  position: sticky;
+  left: 0;
+  background: white;
+}
+
+.name {
+	min-width: 180px;
+}
+
+.sell-price {
+	min-width: 50px;
+}
+
+.rrp {
+	min-width: 50px;
+}
+
+.code {
+	min-width: 90px;
+}
+
+span {
+	font-size: 14px;
+	border: 1px solid gray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 3px;
+}
+
+/*
+Grid settings
+styles used:
+*/
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.grid-full {
+	grid-column:1/5;
+}
+
+.grid-left {
+	grid-column: 1/3;
+}
+
+.grid-right {
+	grid-column:3/5;
+}
+
+.grid-three {
+	grid-column: 1/4;
+}
+
+.grid-three > img {
+	max-width: 100%;
+}
+
+.grid-fourth {
+	grid-column:4/5;
+	margin-bottom:20px;
+}
+
+.grid-fourth > ul, li {
+	font-size: 14px;
+	list-style-type: none;
+	text-align: right;
+	margin: 0;
+}
+
+.half-left {
+	grid-column:1/3;
+}
+
+.half-right{
+	grid-column: 3/5;
+}
+.card-dealer {
+	box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+	/*border: 0.2px solid gray;*/
+	border-radius: 5px;
+	padding:10px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	margin: 30px;
+}
+
+.ticker {
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 12px;
+	margin: 0;
+	color: gray;
+}
+
+.head-name {
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0;
+}
+
+.button-clear {
+	font-family: Fixel;
+	font-weight: 500;
+	font-size: 14px;
+	color: rgb(255, 97, 21);
+	width:100%;
+	background: rgb(255,228,211);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.button-full {
+	font-family: Fixel;
+	font-weight: 500;
+	font-size: 14px;
+	color: white;
+	width:100%;
+	background: rgb(255, 97, 21);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.line {
+	border: 0.5px solid #ccc;
+	margin: 0;
+}
+
+.news {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	overflow-x: auto;
+}
+
+.news > img {
+	max-width: 35%;
+	max-height: 200px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.currency {
+	font-size: 14px;
+	font-weight: 500;
+	text-align: right;
+	line-height: 12px;
+	margin: 0;
+	color: black;
+}
+
+.search {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.search > input {
+	width: 100%;
+	height: 36px;
+	font-size: 16px;
+}
+
+.search > p {
+	font-size: 14px;
+	margin: 0;
+}
+
+.deal-link {
+	max-width: 60px;
+}
+
+.filters {
+	margin-top: 40px;
+}
+
+.filters > ul, li {
+	padding: 0;
+	list-style-type: none;
+	display: inline;
+	margin-right: 10px;
+	text-align: left;
+	font-weight: 500;
+	color: gray;
+}
